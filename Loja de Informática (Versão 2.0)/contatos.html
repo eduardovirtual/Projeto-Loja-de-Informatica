@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Produto, Loja, Informática">
+    <meta name="description" content="Loja online que fornece serviços de Informática">
+    <meta name="author" content="Eduardo Santos">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loja de Informática - Contatos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo"><a href="index.html" title="Loja de Informática do Obama">Loja de Informática do Obama</a></h1>
+        <form action="" method="post">
+            <input type="search" name="busca" id="busca" placeholder="Faça sua busca aqui!">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+        </form>
+
+    </header>
+    <nav class="menu">
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="produtos.html">PRODUTOS</a></li>
+    <li><a href="servicos.html">SERVIÇOS</a></li>
+    <li><a href="contatos.html">CONTATOS</a></li>
+</ul>
+<div class="social-icons">
+    <a href="http://www.facebook.com" class="btn-facebook"><i><i class="fa-brands fa-facebook"></i></i></a>
+    <a href="http://www.twitter.com" class="btn-twitter"><i><i class="fa-brands fa-twitter"></i></i></a>
+    <a href="http://www.google.com" class="btn-google"><i><i class="fa-brands fa-google"></i></i></a>
+</div>
+    </nav>
+
+    <main class="principal-contato">
+        <h2>Precisa de Suporte? Entre em contato conosco!</h2>
+        <form action="" method="post">
+            <input type="text" name="nome" id="nome" placeholder="Insira o seu nome completo: ">
+            <input type="text" name="email" id="email" placeholder="Informe o seu e-mail de contato: ">
+            <textarea name="assunto" id="assunto" cols="30" rows="10">Nos informe o motivo do seu contato: </textarea>
+        </form>
+        <button onclick="enviar()">Enviar</button>
+    </main>
+
+    <footer class="rodape2">
+        <p>Loja do Eduardo - Todos os Direitos Reservados.&copy;</p>
+    </footer>
+
+    <script>
+        function enviar(){
+            alert('Sua mensagem foi enviada com sucesso! Dentro de 24h nossa equipe entrará em contato com você, fique atento ao seu e-mail!')
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/ae63e588a9.js" crossorigin="anonymous"></script>
+</body>
+</html>

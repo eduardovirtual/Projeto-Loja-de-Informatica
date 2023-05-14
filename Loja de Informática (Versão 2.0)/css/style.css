@@ -1,0 +1,348 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABECALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+    /* background: linear-gradient(red,blue) */
+}
+
+.logo {
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/MicrosoftTeams-image.png);
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho form input[type="search"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+
+/* MENU */
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+    font-size: 19px;
+}
+
+.menu li a:hover {
+    color: white;
+
+}
+
+/* SOCIAL-ICONS */
+.social-icons {
+    float: right
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+
+.btn-facebook :hover {
+    color: #3b5998;
+}
+
+.btn-twitter :hover {
+    color: #00acee;
+}
+
+.btn-google :hover {
+    color: #d73d32;
+}
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+margin-bottom: 15px;
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+.sobre p{
+    text-align: justify;
+
+}
+
+/* PRODUTOS */
+.principal-produtos {
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre-produtos {
+    background-color: #9d9d9d43;
+    width: 23%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #74747433, 0 6px 20px 0 #74747433;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.menu h2 {
+    margin-bottom: 15px;
+}
+.sobre-produtos img {
+    width: 350px;
+    border-radius: 15px;
+}
+.sobre-produtos p {
+    margin: 10px;
+}
+.sobre-produtos button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #0cae98;
+    color: #fff;
+    cursor: pointer;
+}
+.sobre-produtos button:hover {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #13c7ae;
+    cursor: pointer;
+}
+
+/* SIDEBAR */
+.onde-estamos{
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+.onde-estamos h2{
+    margin-bottom: 7px;
+}
+.onde-estamos p{
+    color: #111;
+}
+.onde-estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px;
+}
+.onde-estamos li{
+    color: #777;
+    margin-bottom: 10px;
+}
+.onde-estamos i{
+    margin-right: 6px;
+}
+
+/* NEWSLETTER */
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.newsletter h3{
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p{
+    font-size: 1.2em;
+    color: #fff;
+}
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.newsletter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+.newsletter button{
+    width: 18%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+}
+.rodape p{
+    color: #fff;
+}
+
+/* SERVIÇOS */
+.principal-servicos{
+    padding: 20px 8%;
+    width: 100%;
+    float: left;
+}
+.os-servicos{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.os-servicos h2{
+    margin-bottom: 15px;
+}
+.os-servicos img{
+    width: 60%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;  
+}
+.os-servicos p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.p3{
+  margin-top: 147px;
+  text-align: justify;
+}
+.os-servicos .img2{
+    margin-top: 38px;
+}
+
+/* CONTATOS */
+.principal-contato {
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+    text-align: center;
+}
+.principal-contato h2 {
+    margin-bottom: 25px;
+}
+.principal-contato input[type=text],
+textarea {
+    width: 50%;
+    margin: 15px 0 0 0;
+    box-sizing: border-box;
+    border: 2px solid #aaaaaa;
+    padding: 10px;
+    border-radius: 5px;
+}
+.principal-contato input[type=text]:focus,
+textarea:focus {
+    width: 50%;
+    margin: 15px 0 0 0;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    padding: 10px;
+}
+.principal-contato button {
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0cae98;
+    color: #fff;
+    margin: 10px 0 50px 0;
+}
+.principal-contato button:hover {
+    width: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #13c7ae;
+}
+
+.rodape2{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+    margin-top: 27px;
+}
+.rodape2 p{
+    color: #fff;
+}
